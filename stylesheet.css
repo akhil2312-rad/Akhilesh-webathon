@@ -1,0 +1,149 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "Avenir Next";
+    background-image:url(https://geographical.co.uk/media/k2/items/cache/8a6976fea28b3c6fa1bf282a2ab24dbf_XL.jpg);
+    background-size: cover;
+  }
+  
+  li {
+    list-style: none;
+  }
+  .top-wrapper{
+      padding: 160px 0 100px 0;
+      background-size: cover;
+  }
+  .header{ 
+    height:90px;
+    border-bottom:2px solid #dee7ec;
+    margin: 0 auto;
+    
+  }
+  .header-logo{
+    padding:20px 50px;
+    float:left;
+    font-size:36px;
+    color: royalblue;
+    
+  }
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+  .header-list{
+    float:right;
+  }
+  .header-list li {
+    float:left;
+    padding:33px 20px;
+  }
+  .main{
+    padding:100px 80px;
+  }
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    padding-bottom: 50px;
+    background-size: cover;
+    text-align: center;
+  }
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  .copy-container h1{
+    font-size:50px;
+    color: red;
+  }
+  .copy-container h2{
+    font-size:50px;
+    color:greenyellow;
+  }
+  .copy-container h3{
+      font-size: 30px;
+      padding-top: 50px;
+      color: midnightblue;
+  }
+  .copy-container h4{
+    font-size: 30px;
+    color: midnightblue;
+  }
+
+  .copy-container h4{
+      padding-top: 25px;
+      color: black;
+  }
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  .signup {
+    background-color: #239b76;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  .lesson-wrapper {
+    height: 2850px;
+    padding-bottom: 100px;
+    background-size:cover ;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+.lesson-icon p{
+  font-size: 30px;
+  color: red;
+}
+.lesson{
+  padding-top:30px ;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer p {
+  color: magenta;
+  font-size: 30px;
+
+}
+
+footer {
+  padding-top: 30px;
+}
+  
